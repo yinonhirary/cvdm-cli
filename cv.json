@@ -1,0 +1,99 @@
+{
+	"name": "YoureFullName",
+	"email": "youreEmail@gmail.com",
+	"phoneNumber": "123",
+	"sortAcademic": {
+		"1": {
+			"post_doctoral": 1
+		},
+		"2": {
+			"teaching_in_postscenodry": 0
+		},
+		"3": {
+			"high_level_research": 0
+		},
+		"4": {
+			"fellowship_grants": 0
+		}
+	},
+	"AcadmicHistory": {
+		"education": {
+			"1": {
+				"date": "2015",
+				"description": "field description"
+			},
+			"2": {
+				"date": "2014",
+				"description": "field description"
+			},
+			"3": {
+				"date": "2013",
+				"description": "field description"
+			}
+		},
+		"researchersAndProject": {
+			"1": {
+				"date": "2015",
+				"description": "field description"
+			},
+			"2": {
+				"date": "2014",
+				"description": "field description"
+			},
+			"3": {
+				"date": "2013",
+				"description": "field description"
+			}
+		}
+	},
+	"expAndSkill": {
+		"previousCareer": {
+			"1": {
+				"date": "2015",
+				"description": "field description"
+			},
+			"2": {
+				"date": "2014",
+				"description": "field description"
+			},
+			"3": {
+				"date": "2013",
+				"description": "field description"
+			}
+		},
+		"specillaztion": {
+			"1": {
+				"date": "2015",
+				"description": "field description"
+			},
+			"2": {
+				"date": "2014",
+				"description": "field description"
+			},
+			"3": {
+				"date": "2013",
+				"description": "field description"
+			}
+		}
+	},
+	"status": {
+		"1": {
+			"hired": 0
+		},
+		"2": {
+			"rejected": 0
+		},
+		"3": {
+			"onhold": 1
+		}
+	},
+	"notes": {
+		"1": {
+			"description": "note description"
+		},
+		"2": {
+			"description": "note description"
+		}
+	},
+	"image": "https://imagelocation"
+}

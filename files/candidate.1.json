@@ -1,0 +1,76 @@
+{
+  "status": {
+    "1": {
+      "hired": 0
+    },
+    "3": {
+      "onhold": 0
+    },
+    "2": {
+      "rejected": 1
+    }
+  },
+  "sortAcademic": {},
+  "expAndSkill": {
+    "previousCareer": {},
+    "specillaztion": {
+      "1": {
+        "date": 2014,
+        "description": "field description"
+      },
+      "2": {
+        "date": 2013,
+        "description": "field description"
+      },
+      "3": {
+        "date": 2015,
+        "description": "field description"
+      }
+    }
+  },
+  "name": "YoureFullName",
+  "phoneNumber": 123,
+  "notes": {
+    "1": {
+      "date": null,
+      "description": "note description"
+    },
+    "2": {
+      "date": null,
+      "description": "note description"
+    }
+  },
+  "image": null,
+  "email": "youreEmail@gmail.com",
+  "id": 1,
+  "AcadmicHistory": {
+    "education": {
+      "1": {
+        "date": 2014,
+        "description": "field description"
+      },
+      "2": {
+        "date": 2013,
+        "description": "field description"
+      },
+      "3": {
+        "date": 2015,
+        "description": "field description"
+      }
+    },
+    "researchersAndProject": {
+      "1": {
+        "date": 2014,
+        "description": "field description"
+      },
+      "2": {
+        "date": 2013,
+        "description": "field description"
+      },
+      "3": {
+        "date": 2015,
+        "description": "field description"
+      }
+    }
+  }
+}
