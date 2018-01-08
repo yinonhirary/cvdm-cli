@@ -11,3 +11,5 @@ def ca_route():
         candidate.export_json_file()
     elif cliArgument.args.jsonformat:  # sending empty json file to new candidate option
         candidate.write_json_file(candidate.empty_json_template(), "template")
+    elif cliArgument.args.get_e:
+        candidate.candidate_educational_print()

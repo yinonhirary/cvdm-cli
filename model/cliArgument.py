@@ -22,4 +22,5 @@ def arg_command():
     parser.add_argument("-update", action="store", help="get candidate card, candidate id.")
     parser.add_argument("-search", action="store", help="search options, for sort academic = 1,academic history = 2, expand skills =3.")
     parser.add_argument("-search_v", action="store", help="search value sort academic = 1/2/3/4, other method is string value.")
+    parser.add_argument("-get_e", action="store_true",help="search value sort academic = 1/2/3/4, other method is string value.")#### hackton 3 indvidual task ############
     args = parser.parse_args()

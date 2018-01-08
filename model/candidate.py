@@ -3,6 +3,22 @@ from api import cloudinary
 import json
 
 
+
+def candidate_educational_background():
+    #### hackton 3 indvidual task ############33
+    data = []
+    data.append("university 1")
+    data.append("university 2")
+    data.append("university 3")
+    data.append("university 4")
+    data.append("university 5")
+    return data
+def candidate_educational_print():
+    #### hackton 3 indvidual task ############33
+    i = 0
+    for x in candidate_educational_background():
+        global_var.main_output["add_log"]("option {0} for - {1}".format(i,x))
+        i = i + 1
 def export_json_file():
     json_data = {'notes': {}, 'image': 'https://imagelocation',
                  'expAndSkill': {'specillaztion': {}, 'previousCareer': {}},
@@ -98,9 +114,9 @@ def empty_json_template():
                                                '2': {'description': 'field description', 'date': '2014'}}},
             'sortAcademic': {'1': {'post_doctoral': 1}, '4': {'fellowship_grants': 0}, '3': {'high_level_research': 0},
                              '2': {'teaching_in_postscenodry': 0}}, 'phoneNumber': '', 'AcadmicHistory': {
-            'education': {'1': {'description': 'field description', 'date': '2015'},
-                          '3': {'description': 'field description', 'date': '2013'},
-                          '2': {'description': 'field description', 'date': '2014'}},
+            'education': {'1': {'description': 0, 'date': '2015'},
+                          '3': {'description': 0, 'date': '2013'},
+                          '2': {'description': 0, 'date': '2014'}},
             'researchersAndProject': {'1': {'description': 'field description', 'date': '2015'},
                                       '3': {'description': 'field description', 'date': '2013'},
                                       '2': {'description': 'field description', 'date': '2014'}}},
